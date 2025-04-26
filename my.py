@@ -65,26 +65,26 @@ print('Сумма a+b=', a+b) # вывод суммы двух переменн�
 # print(a, b, c, d, e)
 
 # # лигический тип данных (boolean)
-# print(bool(0))
-# print(bool(-1))
-# print(bool(5))
-# print(bool(0.0))
-# print(bool(True))
-# print(bool(False))
-# print(bool(''))
-# print(bool(' '))
-# print(bool('Привет мир'))
+print(bool(0))
+print(bool(-1))
+print(bool(5))
+print(bool(0.0))
+print(bool(True))
+print(bool(False))
+print(bool(''))
+print(bool(' '))
+print(bool('Привет мир'))
 
-# print(2 == 2)
-# print(2 == '2')
-# print(2 == "2")
-# print(4 > 2)
-# print(5 >= 5)
-# print(10 <= 5)
-# x = 5
-# a = 1
-# b = 10
-# print(a > x < b)
+print(2 == 2)
+print(2 == '2')
+print(2 == "2")
+print(4 > 2)
+print(5 >= 5)
+print(10 <= 5)
+x = 5
+a = 1
+b = 10
+print(a > x < b)
 #
 # # Строки (string)
 # print("Строка в двойных кавычках")
