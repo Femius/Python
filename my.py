@@ -37,11 +37,11 @@
 # a, b = b, a
 # print('a =', a, 'b=', b)
 # ввод значения от пользователя в целое число
-a = int (input('Введитевторое число: ')) # ввод значения от пользователя в целое число
-b = int (input('Введите второе число: '))
-print('a =', a) # вывод переменной а
-print('b =', b) # вывод переменной b
-print('Сумма a+b=', a+b) # вывод суммы двух переменных (а + b)
+# a = int (input('Введитевторое число: ')) # ввод значения от пользователя в целое число
+# b = int (input('Введите второе число: '))
+# print('a =', a) # вывод переменной а
+# print('b =', b) # вывод переменной b
+# print('Сумма a+b=', a+b) # вывод суммы двух переменных (а + b)
 #
 # '''
 # Третье занятие
@@ -65,26 +65,26 @@ print('Сумма a+b=', a+b) # вывод суммы двух переменн�
 # print(a, b, c, d, e)
 
 # # лигический тип данных (boolean)
-print(bool(0))
-print(bool(-1))
-print(bool(5))
-print(bool(0.0))
-print(bool(True))
-print(bool(False))
-print(bool(''))
-print(bool(' '))
-print(bool('Привет мир'))
-
-print(2 == 2)
-print(2 == '2')
-print(2 == "2")
-print(4 > 2)
-print(5 >= 5)
-print(10 <= 5)
-x = 5
-a = 1
-b = 10
-print(a > x < b)
+# print(bool(0))
+# print(bool(-1))
+# print(bool(5))
+# print(bool(0.0))
+# print(bool(True))
+# print(bool(False))
+# print(bool(''))
+# print(bool(' '))
+# print(bool('Привет мир'))
+#
+# print(2 == 2)
+# print(2 == '2')
+# print(2 == "2")
+# print(4 > 2)
+# print(5 >= 5)
+# print(10 <= 5)
+# x = 5
+# a = 1
+# b = 10
+# print(a > x < b)
 #
 # # Строки (string)
 # print("Строка в двойных кавычках")
@@ -126,3 +126,103 @@ print(a > x < b)
 # print(myList[3])
 # print(myList[1:3])
 # print(myList[1:])
+
+# Typles(кортежи)
+# myTyple = (78, 89.9, True, "Строка")
+# print(myTyple)
+# print(myTyple[0])
+# print(myTyple[3])
+# print(myTyple[2:4])
+# print(myTyple[1:])
+
+#Словари(dictionary)
+# myDict = {"name": "Владимер", "role": "QA", 123: "test-value", 456: 567.67}
+# print(myDict)
+# print(myDict["name"])
+# print(myDict[123])
+# print(myDict[456])
+# #print(myDict[0]) # индексы не работают
+#
+# myDict = {
+#     "name" : "Владимер",
+#     "role" : "QA"
+# }
+# print(myDict["name"])
+# print(myDict.keys())
+# print(myDict.values())
+
+# #Множество(Sets)
+# myList = [1, 2, 3, 3, 3, 2, 4, 5, 6, 7]
+# mySet = set (myList)
+# print(mySet)
+# myList = ["Добрый", "добрый", "день", "день"]
+# mySet = set(myList)
+# print(mySet)
+
+#Преобразование типов данныйх
+
+# a = 5
+# a = "строка"
+# a = [5,5,6]
+
+# x = 5.67
+# x=int(x)
+# print(x)
+# x = str(x)
+# print(x + "строка" )
+# x = float(x)
+# print(x)
+
+# a = "Привет мир!"
+# print(a[2])
+# a = list(a)
+# print(a)
+# myList = [1, 2, 3, 3, 3, 2, 4, 5, 6, 7]
+# mySet = set (myList)
+# myList = list(mySet)
+# print(myList)
+#
+# myTuple = tuple(myList)
+# print(myTuple)
+#
+# print(ord("а"))
+# print(chr(1072))
+# print(f"\\u{ord("а"): 04x}")
+
+#Арифметические операторы
+# a = 5
+# b = 10
+# print(a+b)
+# print(a-b)
+# print(a*b)
+# print(a/b)
+# print(a%b)
+# print(8%2)
+# print(a**2)
+# print(10//3)
+# print(-10//3)
+#
+# print(5==5)
+# print(5 !=5)
+# print(5>10)
+# print(5<10)
+# print(5>=5)
+# print(5<=10)
+#
+# a += b
+# print(a)
+# a -= b
+# print(a)
+# a *= b
+# print(a)
+# a **= b
+# print(a)
+# a /= b
+# print(a)
+# a //= b
+# print(a)
+# a %= b
+# print(a)
+
+#Логические операторы
+
