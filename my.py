@@ -136,20 +136,20 @@
 # print(myTyple[1:])
 
 #Словари(dictionary)
-# myDict = {"name": "Владимер", "role": "QA", 123: "test-value", 456: 567.67}
-# print(myDict)
-# print(myDict["name"])
-# print(myDict[123])
-# print(myDict[456])
-# #print(myDict[0]) # индексы не работают
-#
-# myDict = {
-#     "name" : "Владимер",
-#     "role" : "QA"
-# }
-# print(myDict["name"])
-# print(myDict.keys())
-# print(myDict.values())
+myDict = {"name": "Владимер", "role": "QA", 123: "test-value", 456: 567.67}
+print(myDict)
+print(myDict["name"])
+print(myDict[123])
+print(myDict[456])
+#print(myDict[0]) # индексы не работают
+
+myDict = {
+    "name" : "Владимер",
+    "role" : "QA"
+}
+print(myDict["name"])
+print(myDict.keys())
+print(myDict.values())
 
 # #Множество(Sets)
 # myList = [1, 2, 3, 3, 3, 2, 4, 5, 6, 7]
@@ -161,33 +161,33 @@
 
 #Преобразование типов данныйх
 
-# a = 5
-# a = "строка"
-# a = [5,5,6]
+a = 5
+a = "строка"
+a = [5,5,6]
 
-# x = 5.67
-# x=int(x)
-# print(x)
-# x = str(x)
-# print(x + "строка" )
-# x = float(x)
-# print(x)
+x = 5.67
+x=int(x)
+print(x)
+x = str(x)
+print(x + "строка" )
+x = float(x)
+print(x)
 
-# a = "Привет мир!"
-# print(a[2])
-# a = list(a)
-# print(a)
-# myList = [1, 2, 3, 3, 3, 2, 4, 5, 6, 7]
-# mySet = set (myList)
-# myList = list(mySet)
-# print(myList)
-#
-# myTuple = tuple(myList)
-# print(myTuple)
-#
-# print(ord("а"))
-# print(chr(1072))
-# print(f"\\u{ord("а"): 04x}")
+a = "Привет мир!"
+print(a[2])
+a = list(a)
+print(a)
+myList = [1, 2, 3, 3, 3, 2, 4, 5, 6, 7]
+mySet = set (myList)
+myList = list(mySet)
+print(myList)
+
+myTuple = tuple(myList)
+print(myTuple)
+
+print(ord("а"))
+print(chr(1072))
+print(f"\\u{ord("а"): 04x}")
 
 #Арифметические операторы
 # a = 5
