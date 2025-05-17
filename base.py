@@ -1,3 +1,5 @@
+import math
+
 # print('Dmitry')
 #
 # print('Вторая строка')
@@ -136,22 +138,22 @@
 # print(myTyple[1:])
 
 #Словари(dictionary)
-myDict = {"name": "Владимер", "role": "QA", 123: "test-value", 456: 567.67}
-print(myDict)
-print(myDict["name"])
-print(myDict[123])
-print(myDict[456])
-#print(myDict[0]) # индексы не работают
+# myDict = {"name": "Владимер", "role": "QA", 123: "test-value", 456: 567.67}
+# print(myDict)
+# print(myDict["name"])
+# print(myDict[123])
+# print(myDict[456])
+# #print(myDict[0]) # индексы не работают
+#
+# myDict = {
+#     "name" : "Владимер",
+#     "role" : "QA"
+# }
+# print(myDict["name"])
+# print(myDict.keys())
+# print(myDict.values())
 
-myDict = {
-    "name" : "Владимер",
-    "role" : "QA"
-}
-print(myDict["name"])
-print(myDict.keys())
-print(myDict.values())
-
-# #Множество(Sets)
+#Множество(Sets)
 # myList = [1, 2, 3, 3, 3, 2, 4, 5, 6, 7]
 # mySet = set (myList)
 # print(mySet)
@@ -161,33 +163,33 @@ print(myDict.values())
 
 #Преобразование типов данныйх
 
-a = 5
-a = "строка"
-a = [5,5,6]
-
-x = 5.67
-x=int(x)
-print(x)
-x = str(x)
-print(x + "строка" )
-x = float(x)
-print(x)
-
-a = "Привет мир!"
-print(a[2])
-a = list(a)
-print(a)
-myList = [1, 2, 3, 3, 3, 2, 4, 5, 6, 7]
-mySet = set (myList)
-myList = list(mySet)
-print(myList)
-
-myTuple = tuple(myList)
-print(myTuple)
-
-print(ord("а"))
-print(chr(1072))
-print(f"\\u{ord("а"): 04x}")
+# a = 5
+# a = "строка"
+# a = [5,5,6]
+#
+# x = 5.67
+# x=int(x)
+# print(x)
+# x = str(x)
+# print(x + "строка" )
+# x = float(x)
+# print(x)
+#
+# a = "Привет мир!"
+# print(a[2])
+# a = list(a)
+# print(a)
+# myList = [1, 2, 3, 3, 3, 2, 4, 5, 6, 7]
+# mySet = set (myList)
+# myList = list(mySet)
+# print(myList)
+#
+# myTuple = tuple(myList)
+# print(myTuple)
+#
+# print(ord("а"))
+# print(chr(1072))
+# print(f"\\u{ord("а"): 04x}")
 
 #Арифметические операторы
 # a = 5
@@ -225,4 +227,26 @@ print(f"\\u{ord("а"): 04x}")
 # print(a)
 
 #Логические операторы
+
+# print(abs(-89)) # модуль числа
+# print(abs(67))
+#
+# print(pow(5,2)) # возвести 5 в степень 2
+# print(5**2)
+# print(pow(5,-5)) # возвести 5 в степень -5
+# print(pow(5, 2, 5)) # возвести 5 в степень 2 и найти остаток от деления на 5
+#
+# print(round(5.56)) #округлить до целого
+# print(round(4.5678, 2)) # округлить до 2 знаков после запятой
+# print(round(4.5))
+# print(round(5.5))
+# print(round(3.5))
+
+# #математические функции библиотеки math
+# print(math.ceil(5.7)) #CEIL округлятет в большую сторону
+# print(math.ceil(5.2))
+# print(math.floor(5.8)) #floor округлятет в меньшую сторону
+# print(math.floor(5.2))
+# print(math.log(25, 2)) #логарифмы 25 по основанию 2
+# print(math.sqrt(25)) #  найти квадратный корень из 25
 
