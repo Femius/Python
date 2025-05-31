@@ -5,6 +5,9 @@
 #         continue
 #     print(n)
 # print("Цикл завершен")
+from typing import Any
+
+from dz1 import result
 
 # # Задание 8
 # # Зарплата менеджера составляет 200$ + процент от продаж, продажи до 500$ — 3%, от 500 до 1000
@@ -96,7 +99,18 @@
 # 5. Задача о числах Фибоначчи:
 # Напишите программу, которая выводит первые 10 чисел Фибоначчи.
 
+# # 10 задача
+# numbers = [3, -6, 10, 0, -3, 5, 8, -7]
+# result =[]
+# for i in numbers:
+#     if abs(i) > 5:
+#         result.append(i)
+# print(result)
 
+# # 2 пример
+# numbers = [3, -6, 10, 0, -3, 5, 8, -7]
+# result = [x for x in numbers if abs(x) > 5]
+# print(result)
 
 
 
