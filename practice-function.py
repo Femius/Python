@@ -52,38 +52,15 @@
 # n = int(input("Введите количество звезд"))
 # print_tringle(n)
 # Задача 7
-def distance(x1, y1, x2, y2):
-    return (((x2 - x1)**2 +(y2 - y1)**2))**0.5
-
-def triangle_perimetr(x1, y1, x2, y2, x3, y3):
-    a = distance(x1, y1, x2, y2)
-    b = distance(x2, y2, x3, y3)
-    c = distance(x3, y3 ,x1, y1)
-    return a + b + c
-print(triangle_perimetr(1, 2, 4, 5,6 ,7))
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+# def distance(x1, y1, x2, y2):
+#     return (((x2 - x1)**2 +(y2 - y1)**2))**0.5
+#
+# def triangle_perimetr(x1, y1, x2, y2, x3, y3):
+#     a = distance(x1, y1, x2, y2)
+#     b = distance(x2, y2, x3, y3)
+#     c = distance(x3, y3 ,x1, y1)
+#     return a + b + c
+# print(triangle_perimetr(1, 2, 4, 5,6 ,7))
 
 # # задача 8 найдите простое трехзначтное число
 # def is_prime(n):
@@ -98,11 +75,26 @@ print(triangle_perimetr(1, 2, 4, 5,6 ,7))
 #         primes.append(i)
 # print(primes)
 
+# # Задача 9
+# def sum_digits(n):
+#     summa = 0
+#     for d in str(n):
+#         summa += int(d)
+#     return summa
+#
+#
+# def is_lucky(n):
+#     s = str(n)
+#     if sum_digits(s[:3]) == sum_digits(s[3:]):
+#         print("Число счасливое ")
+#     else:
+#         print("Число не частливое ")
+# is_lucky(112323)
 
-
-
-
-
+# # 10 задача даны 6 различных чисел
+# def max6(a, b, c, d, e, f):
+#     return max(a, b, c, d, e, f)
+# print(max6(1,2,4,5,6,7))
 
 
 
